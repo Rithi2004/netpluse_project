@@ -1,9 +1,116 @@
 NetPulse – Candidate Backlog
 
-1. Retrieve all devices
-2. Retrieve device by ID
-3. View active alerts
-4. Filter alerts by severity
-5. Acknowledge an alert
+Story 1 – Retrieve All Devices
 
-Acceptance Criteria
+Acceptance Criteria:
+	1. API returns all registered devices.
+	2. Each device has a unique ID.
+	3. Device name must be included.
+	4. Device status must be included.
+	5. Successful request returns an appropriate success response.
+
+Story 2 – Retrieve Device by ID
+
+Acceptance Criteria:
+	1. Valid device ID returns the matching device.
+	2. Device ID, name, and status must be included.
+	3. Unknown device ID returns a clear not-found response.
+	4. Response format must be consistent.
+
+Story 3 – View Active Alerts
+
+Acceptance Criteria:
+	1. API returns active alerts.
+	2. Each alert includes an Alert ID.
+	3. Each alert includes the associated device.
+	4. Each alert includes severity.
+	5. Each alert includes status.
+
+Story 4 – Filter Alerts by Severity
+
+Acceptance Criteria:
+	1. API allows filtering alerts by severity.
+	2. Only alerts matching the selected severity are returned.
+	3. Invalid severity returns a clear error response.
+	4. Response format must be consistent.
+
+Story 5 – Acknowledge an Alert
+
+Acceptance Criteria:
+	1. API allows the user to acknowledge an alert.
+	2. The correct alert is updated.
+	3. Alert status changes to acknowledged.
+	4. Invalid alert ID returns a clear not-found response.
+
+Story Points Estimation
+
+Story 1 – Retrieve All Devices: 3 Points
+Story 2 – Retrieve Device by ID: 3 Points
+Story 3 – View Active Alerts: 5 Points
+Story 4 – Filter Alerts by Severity: 3 Points
+Story 5 – Acknowledge an Alert: 5 Points
+
+Sprint Goal
+
+Provide the first usable API capabilities for retrieving network devices and active alerts.
+
+Sprint Backlog – Selected Scope
+
+1. Story 1 – Retrieve All Devices: 3 Points
+2. Story 2 – Retrieve Device by ID: 3 Points
+3. Story 3 – View Active Alerts: 5 Points
+
+Total: 11 Story Points
+
+Daily Stand-up Simulation
+
+Done:
+Story 1 – Retrieve All Devices
+
+In Progress:
+Story 2 – Retrieve Device by ID
+
+To Do:
+Story 3 – View Active Alerts
+
+Blocker:
+Expected error response for invalid device ID needs clarification.
+
+Sprint Review
+
+Completed:
+1. Retrieve All Devices
+2. Retrieve Device by ID
+3. View Active Alerts
+
+Stakeholder Feedback:
+Alert severity filtering is needed before the dashboard can use the API effectively.
+
+
+Sprint Retrospective
+
+What Went Well:
+1. Stories were small enough.
+2. Acceptance criteria helped development.
+3. Blockers were identified early.
+
+What Needs Improvement:
+Error handling requirements were unclear.
+
+Action Item:
+Add example API responses during backlog refinement.
+
+Final Sprint Backlog Summary
+
+Sprint Goal:
+Provide the first usable API capabilities for retrieving network devices and active alerts.
+
+Selected Stories:
+1. Story 1 – Retrieve All Devices (3 Points)
+2. Story 2 – Retrieve Device by ID (3 Points)
+3. Story 3 – View Active Alerts (5 Points)
+
+Total Story Points: 11
+
+Sprint Status:
+Ready for Phase 2 – Devices & Alerts API Development.
