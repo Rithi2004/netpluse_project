@@ -114,3 +114,143 @@ Total Story Points: 11
 
 Sprint Status:
 Ready for Phase 2 – Devices & Alerts API Development.
+
+End-to-End Capstone Story Trace
+
+Selected Story:
+Story 1 – Retrieve All Devices
+
+1. Backlog
+
+Tool / Practice:
+Agile Backlog
+
+DevOps Lifecycle Stage:
+Plan
+
+Agile Ceremony:
+Sprint Planning
+
+Activity:
+Story 1 – Retrieve All Devices is selected and planned for the sprint.
+
+2. Develop
+
+Tool / Practice:
+Linux Terminal
+
+DevOps Lifecycle Stage:
+Code
+
+Agile Ceremony:
+Daily Stand-up
+
+Activity:
+Developer works on the Retrieve All Devices story in the Linux environment.
+
+3. Commit
+
+Tool / Practice:
+Git
+
+DevOps Lifecycle Stage:
+Code
+
+Agile Ceremony:
+Daily Stand-up
+
+Activity:
+Developer commits and pushes the code changes to the shared Git repository.
+
+4. CI Build
+
+Tool / Practice:
+CI Pipeline
+
+DevOps Lifecycle Stage:
+Build
+
+Agile Ceremony:
+Sprint Review
+
+Activity:
+The CI pipeline prepares and verifies the application after the code is pushed to the shared repository.
+
+5. CI Testing
+
+Tool / Practice:
+Automated Tests
+
+DevOps Lifecycle Stage:
+Test
+
+Agile Ceremony:
+Sprint Review
+
+Activity:
+Automated checks validate whether the application behaves as expected.
+
+6. CI Pipeline Result
+
+Tool / Practice:
+CI Pipeline
+
+DevOps Lifecycle Stage:
+Build and Test
+
+Agile Ceremony:
+Sprint Review
+
+Success Path:
+Build completes, automated tests pass, and the change is ready for the next delivery step.
+
+Failure Path:
+Pipeline stops at the failed check. Developer fixes the issue, commits the changes again, and revalidates the pipeline.
+
+7. Release / Deploy
+
+Tool / Practice:
+Deployment Process
+
+DevOps Lifecycle Stage:
+Release / Deploy
+
+Agile Ceremony:
+Sprint Review
+
+Activity:
+After successful CI validation, the change is ready for the next delivery step.
+
+8. Operate / Monitor
+
+Tool / Practice:
+Application Monitoring
+
+DevOps Lifecycle Stage:
+Operate / Monitor
+
+Agile Ceremony:
+Sprint Retrospective
+
+Activity:
+Monitor the running system and collect feedback to identify issues and improve the application.
+
+9. Final Summary
+
+Agile:
+Organizes and prioritizes the work.
+
+Linux:
+Provides the developer working environment.
+
+Git:
+Records and shares code changes.
+
+CI/CD:
+Automatically builds, tests, and reports feedback.
+
+DevOps:
+Connects all these practices into one delivery workflow.
+
+Conclusion:
+The Retrieve All Devices user story moves from backlog selection through development, Git commit, CI build, testing, and pipeline feedback.
