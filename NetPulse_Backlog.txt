@@ -1,0 +1,9 @@
+NetPulse – Candidate Backlog
+
+1. Retrieve all devices
+2. Retrieve device by ID
+3. View active alerts
+4. Filter alerts by severity
+5. Acknowledge an alert
+
+Acceptance Criteria
